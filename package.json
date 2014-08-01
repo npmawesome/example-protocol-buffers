@@ -1,0 +1,9 @@
+{
+  "name": "example-protocol-buffers",
+  "scripts": {
+    "test": "node protocol-buffers.js"
+  },
+  "dependencies": {
+    "protocol-buffers": "^2.1.4"
+  }
+}

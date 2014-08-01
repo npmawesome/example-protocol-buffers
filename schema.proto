@@ -1,0 +1,17 @@
+enum VehicleType {
+  SEDAN = 0;
+  COUPE = 1;
+  VAN = 2;
+}
+
+message Vehicle {
+  required int32 price = 0;
+  required string make = null;
+  optional VehicleType type;
+}
+
+message Garage {
+
+  repeated Vehicle vehicles;
+}
+
